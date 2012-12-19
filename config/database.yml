@@ -46,10 +46,9 @@ test: &test
 
 production:
   adapter: postgresql
-  database: tc_production  
-  charset: unicode
+  database: testcommerce_production  
+  encoding: unicode
   pool: 5   
-  port: 5432
 
 staging:
   adapter: postgresql
